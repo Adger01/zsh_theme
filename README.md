@@ -28,12 +28,20 @@ git clone https://github.com/Adger01/zsh_theme.git
 cp /data/iresource/zsh_theme/lijie.zsh-theme /root/.oh-my-zsh/themes/
 ```
 
-## 更换主题
+## 更换主题并修改基本设置
 ```
 vim /root/.zhsrc
-
-修改
+```
+修改后文件
+```
 ZSH_THEME="lijie"
 
+#历史纪录数量
+export HISTSIZE=100000000
+#注销后保存的历史纪录数量
+export SAVEHIST=100000000
+
+export LC_ALL="en_US.UTF-8"
+export LANGUAGE="en_US.UTF-8"
 
 ```
