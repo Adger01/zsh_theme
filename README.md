@@ -23,7 +23,7 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 
 ## 下载主题
 ```
-make /data/iresource && cd /data/iresource  
+mkdir /data/iresource && cd /data/iresource  
 git clone https://github.com/Adger01/zsh_theme.git
 cp /data/iresource/zsh_theme/lijie.zsh-theme /root/.oh-my-zsh/themes/
 ```
